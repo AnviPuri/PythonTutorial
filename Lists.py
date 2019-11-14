@@ -62,3 +62,17 @@ print(listName)
 print(listAge)
 print(list)
 
+#List comprehension
+#appending
+myList=[x for x in "word"]
+print(myList)
+
+myNumList=[num for num in range(0,10)]
+print(myNumList)
+
+mySquareNumList=[num**2 for num in range(0,10)]
+print(mySquareNumList)
+
+myEvenNumList=[num for num in range(0,10) if num%2==0]
+print(myEvenNumList)
+
