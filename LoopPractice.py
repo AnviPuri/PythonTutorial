@@ -10,8 +10,8 @@ picture = [
 length=len(picture)
 for i in range(0,length):
     for j in picture[i]:
-        if(j==0):
-            print(" ",end="")
-        else:
+        if(j):
             print("*",end="")
-    print(" ")
+        else:
+            print(" ",end="")
+    print("")
