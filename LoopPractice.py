@@ -7,11 +7,12 @@ picture = [
   [0,0,0,1,0,0,0]
 ]
 
-length=len(picture)
-for i in range(0,length):
-    for j in picture[i]:
+fill="*"
+blank=" "
+for i in picture:
+    for j in i:
         if(j):
-            print("*",end="")
+            print(fill,end="")
         else:
-            print(" ",end="")
-    print("")
+            print(blank,end="")
+    print(blank)
